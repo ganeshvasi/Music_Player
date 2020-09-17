@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listOfSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        >
+    </ListView>
+</LinearLayout>
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1."-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginLeft="16dp"-->
+<!--        android:layout_marginRight="16dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:weightSum="3"-->
+<!--        android:orientation="horizontal"-->
+<!--        >-->
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/ic_baseline_skip_previous_24"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/ic_baseline_play_circle_filled_24"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/ic_baseline_skip_next_24"-->
+<!--            android:layout_weight="1"-->
+<!--            />-->
+<!--    </LinearLayout>-->
+
+
